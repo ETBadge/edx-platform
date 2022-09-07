@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
--e file:///home/runner/work/edx-platform/edx-platform
+-e .
     # via -r requirements/edx/base.txt
 acid-xblock==0.2.1
     # via -r requirements/edx/base.txt
