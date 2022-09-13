@@ -10,6 +10,23 @@
     # via -r requirements/edx/github.in
 -e git+https://github.com/openedx/django-wiki.git@1.1.1#egg=django-wiki
     # via -r requirements/edx/github.in
+-e git+https://github.com/openedx/edx-django-utils.git@27a8c35bbb9ee2c22c82d18a84a0d1c39b43d4cf#egg=edx_django_utils==5.1.0
+    # via
+    #   -r requirements/edx/github.in
+    #   blockstore
+    #   django-config-models
+    #   edx-drf-extensions
+    #   edx-enterprise
+    #   edx-event-bus-kafka
+    #   edx-name-affirmation
+    #   edx-rest-api-client
+    #   edx-toggles
+    #   edx-when
+    #   event-tracking
+    #   learner-pathway-progress
+    #   ora2
+    #   outcome-surveys
+    #   super-csv
 -e git+https://github.com/openedx/olxcleaner.git@2f0d6c7f126cbd69c9724b7b57a0b2565330a297#egg=olxcleaner
     # via -r requirements/edx/github.in
 -e .
@@ -453,23 +470,6 @@ edx-django-release-util==1.2.0
     #   blockstore
 edx-django-sites-extensions==4.0.0
     # via -r requirements/edx/base.in
-edx-django-utils==5.0.1
-    # via
-    #   -r requirements/edx/base.in
-    #   blockstore
-    #   django-config-models
-    #   edx-drf-extensions
-    #   edx-enterprise
-    #   edx-event-bus-kafka
-    #   edx-name-affirmation
-    #   edx-rest-api-client
-    #   edx-toggles
-    #   edx-when
-    #   event-tracking
-    #   learner-pathway-progress
-    #   ora2
-    #   outcome-surveys
-    #   super-csv
 edx-drf-extensions==8.3.1
     # via
     #   -r requirements/edx/base.in
